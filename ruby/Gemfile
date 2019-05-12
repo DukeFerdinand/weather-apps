@@ -1,0 +1,19 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
+
+gem "sinatra", "~> 2.0"
+
+gem "tilt", "~> 2.0"
+
+gem "solargraph", "~> 0.32.1", :group => :development
+
+gem "dotenv", "~> 2.7"
+
+gem "faraday", "~> 0.15.4"
+
+gem "puma", "~> 3.12"

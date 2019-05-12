@@ -1,0 +1,10 @@
+body {
+  background: #222;
+  color: #cecece;
+  font-family: "Open Sans";
+  text-transform: capitalize;
+}
+
+#app {
+  width: 500px;
+}

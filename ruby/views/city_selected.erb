@@ -1,0 +1,9 @@
+<html>
+  <head>
+    <title><%= city.capitalize %> Weather</title>
+    <%= erb :index_css %>
+  </head>
+  <body>
+    <%= app.get_weather(city) %>
+  </body>
+</html>
