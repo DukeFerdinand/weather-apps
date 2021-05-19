@@ -16,4 +16,4 @@ gem "dotenv", "~> 2.7"
 
 gem "faraday", "~> 0.15.4"
 
-gem "puma", "~> 3.12"
+gem "puma", "~> 4.3"
